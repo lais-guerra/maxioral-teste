@@ -1065,8 +1065,7 @@ header.fixed {
     max-width: 100%;
     width: 200px;
     height: 100px;
-    background-image: url('/assets/img/logo_retangular_transparente.png');
-    /* background-image: url('assets/img/logo_fe24_branco_389.png'); */
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/logo_retangular_transparente.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1077,7 +1076,7 @@ header .search {
     max-width: 25px;
     height: 30px;
     margin: 0 27px 0px 0;
-    background-image: url('/assets/img/search.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/search.png');
     background-size: 24px;
     background-repeat: no-repeat;
 }
@@ -1088,7 +1087,7 @@ header .share {
     max-width: 25px;
     height: 30px;
     margin: 0 27px 0px 0;
-    background-image: url('/assets/img/share.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/share.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1105,7 +1104,7 @@ header .login-button #ico-login {
     max-width: 25px;
     height: 30px;
     margin: 0;
-    background-image: url('/assets/img/share.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/share.png');
     background-size: contain;
     background-repeat: no-repeat;
 	
@@ -1444,7 +1443,7 @@ header #site-navigation li a:hover {
     width: 100%;
 }
 .logo-fe-banner {
-    background: url('/assets/img/android-chrome-512x512.png');
+    background: url('https://lais-guerra.github.io/maxioral-teste/assets/img/android-chrome-512x512.png');
     width: 100%;
     max-width: 290px;
     min-height: 150px;
@@ -1610,7 +1609,7 @@ section {}
 }
 #sobre-a-feira a.bt-cta-evento {
     text-decoration: none !important;
-    background-image: url('lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
     background-position: right center;
     background-size: 25px;
     background-repeat: no-repeat;
@@ -1809,7 +1808,7 @@ section,
 .link-playlist, .link-playlist:visited {
     display: flex;
     text-decoration: none !important;
-    background-image: url('/assets/img/seta-dir.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
     background-position: right center;
     background-size: 25px;
     background-repeat: no-repeat;
@@ -1944,7 +1943,7 @@ section,
 }
 #atracoes  .destaque-item .bt-holder-noticias span {
     padding: 0 27px 0 0;
-    background-image: url('/assets/img/seta-dir.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
     background-repeat: no-repeat;
     color: var(--roxo);
     background-size: 19px;
@@ -2045,7 +2044,7 @@ section,
 #videos-home .swiper-button-next-videos,
 #destaques .swiper-button-next-destaques,
 #atracoes .swiper-button-next-atracoes {
-    background-image: url('/assets/img/seta-dir.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
     background-size: 29px !important;
     cursor: pointer;
     background-position: center;
@@ -2055,7 +2054,7 @@ section,
 #videos-home  .swiper-button-prev-videos,
  #destaques .swiper-button-prev-destaques,
  #atracoes .swiper-button-prev-atracoes {
-    background-image: url('/assets/img/seta-esq.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-esq.png');
     background-size: 29px !important;
     cursor: pointer;
     background-position: center;
@@ -2063,13 +2062,13 @@ section,
 	background-color: transparent;
 }
 #videos-home .swiper-button-next-videos {
-    background-image: url('/assets/img/seta-dir.png');	
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');	
 }
 #destaques .swiper-button-next-destaques {
-    background-image: url('/assets/img/seta-dir.png');	
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');	
 }
 #destaques .swiper-button-prev-destaques {
-    background-image: url('/assets/img/seta-esq.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-esq.png');
  }
 
 
@@ -3062,7 +3061,7 @@ body.touch .tooltip {
 #content-noticias .pagination-noticias .page-numbers.current {color: var(--verde-neon) !important; font-weight: bold;}
 
 #content-noticias .pagination-noticias  a.next {
-    background-image: url('assets/img/seta_proximo.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta_proximo.png');
     background-size: 29px !important;
     cursor: pointer;
     background-position: center;
@@ -3076,7 +3075,7 @@ body.touch .tooltip {
 	margin: 0 5px;
 }
 #content-noticias .pagination-noticias  a.prev {
-    background-image: url('assets/img/seta_anterior.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta_anterior.png');
     background-size: 29px !important;
     cursor: pointer;
     background-position: center;
@@ -3513,7 +3512,7 @@ body.error404 #banner-interno {
     position: absolute;
     right: 7px;
     top: 9px;
-    background-image: url('/assets/img/seta-dir.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
     background-repeat: no-repeat;
     background-size: 28px;
     background-position: center;
@@ -3534,7 +3533,7 @@ body.error404 #banner-interno {
     position: absolute;
     right: 7px;
     top: 5px;
-    background-image: url('/assets/img/seta-dir-azul.png');
+    background-image: url("https://lais-guerra.github.io/maxioral-teste/assets/img/seta-dir-azul.png");
     background-repeat: no-repeat;
     background-size: 28px;
     background-position: center;
@@ -3747,7 +3746,7 @@ body.error404 #banner-interno {
     height: 29px;
     width: 29px;
     background-size: 20px;
-    background-image: url('/assets/img/reload.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/reload.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -3759,7 +3758,7 @@ body.error404 #banner-interno {
     height: 32px;
     width: 32px;
     background-repeat: no-repeat;
-    background-image: url('/assets/img/search.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/search.png');
     background-size: 20px;
     background-position: center;
     cursor: pointer;
@@ -3771,7 +3770,7 @@ body.error404 #banner-interno {
     width: 32px;
     background: transparent;
     border: 0;
-    background: url('/assets/img/soma.png');
+    background: url('https://lais-guerra.github.io/maxioral-teste/assets/img/soma.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -3780,7 +3779,7 @@ body.error404 #banner-interno {
 #programacaocompleta  #search-form #open-filters.active,
 #swagger-data-container #search-form #open-filters.active {
 
-    background: url('/assets/img/menos.png');
+    background: url('https://lais-guerra.github.io/maxioral-teste/assets/img/menos.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
