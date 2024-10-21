@@ -796,7 +796,7 @@ textarea {
 header {
     background-color: transparent;
     position: fixed;
-    z-index: 2;
+    z-index: 999;
     width: 100%;
     height: 100px;
 }
@@ -815,7 +815,7 @@ header {
     padding: 0px 0;
 }
  .logo-wrapper {
-    padding: 5px 5px;
+    padding: 10px 10px;
     margin-top: 15px;
 }
 
@@ -1157,7 +1157,7 @@ header #site-navigation li a:hover {
     z-index: 2;
 
 }
-.banner.swiper-slide {min-height: 600px; overflow: hidden}
+.banner.swiper-slide {min-height: 300px; overflow: hidden}
 .banner.swiper-slide video {
     position: absolute;
     top: 0;
@@ -1841,16 +1841,16 @@ section,
 	background: linear-gradient(90deg, rgba(137,0,235,1) 0%, rgba(255,98,36,1) 100%);*/
 		position: relative;
         color: #FFF;
-        font-size: 1.5rem;
+        font-size: 1.5em;
 }
 #atracoes h2 {
-    font-size: 2.7rem;
+    font-size: 0.5em;
     color: var(--bege);
     margin: 0 0 37px 0;
     line-height: 1em;
 }
 .home #atracoes h2 {
-    font-size: 2.7rem;
+    font-size: 1em;
     color: var(--bege);
     margin: 0 0 37px 0;
 }
@@ -1870,15 +1870,15 @@ section,
 
 #destaques h2 {
     color: var(--bege);
-    font-size: 3em;
+    font-size: 1em;
     margin: 0;
     line-height: .8em;
 }
 #destaques  .intro-destaques p {
     color: var(--branco);
     margin: 9px 0 20px 0;
-    font-size: 1.6em;
-    font-weight: 900;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 /* programacao */
@@ -2025,7 +2025,7 @@ section,
     margin: 0px 0 0 0;
     font-size: 1em;
     font-weight: 200;
-    background: var(--magenta);
+    background: var(--azul-escuro);
     width: fit-content;
     padding: 5px 10px;
     line-height: 1.2em;
@@ -2155,7 +2155,7 @@ body.touch .destaque-item.active .container-card-destaque::before {
     margin: 0px 0 0 0;
     font-size: 1em;
     font-weight: 200;
-    background: var(--magenta);
+    background: var(--azul-escuro);
     width: fit-content;
     padding: 5px 10px;
     color: var(--branco);
@@ -2227,19 +2227,19 @@ body.touch #carrosselatracoesfeira .destaque-item-atracoes.active .container-car
 	/* trilha */
 	.minibio::-webkit-scrollbar-track {
 		border-radius: 10px;
-		background-color: #15c987;
+		background-color: #ffffff;
 	}
 
 	/* barra */
 	.minibio::-webkit-scrollbar-thumb {
-		background: #08c77d;
+		background: #ffffff;
 		border-radius: 10px;
 		min-height: 50px;
 	}
 
 	/* barra no hover */
 	.minibio::-webkit-scrollbar-thumb:hover {
-		background: var(--verde);
+		background: var(--bege);
 	}
 	
 	
@@ -2908,14 +2908,14 @@ body.touch .tooltip {
 .bt-cta-banner, .bt-cta-banner:visited {
     color: var(--branco) !important;
     text-decoration: none;
-    border: 2px solid var(--verde-claro);
+    border: 2px solid var(--bege);
     padding: 14px 47px;
     font-size: 1.7em;
 	max-width: fit-content;
 }
 .bt-cta-banner:hover {
 	color: var(--roxo)!important;
-	background: var(--verde-claro);	
+	background: var(--branco);	
 } 
 
 #banner-interno .bottomrow p {2
@@ -3352,18 +3352,14 @@ body.error404 #banner-interno {
 
 #programacao .linha-itens-programacao .linha-item .hora {
     width: 100%;
-    max-width: 100px;
 }
 
 #programacao .linha-itens-programacao .linha-item .hora {
-    background: url('assets/img/ico_relogio_branco.png');
-    background-repeat: no-repeat;
-    background-position: left 2px;
     padding: 0 0px 0 20px;
     background-size: 16px;
     width: 100%;
     font-size: .9em;
-    max-width: 14%;
+    max-width: 100%;
 }
 
 #programacao .linha-itens-programacao .linha-item .local {
@@ -6438,6 +6434,20 @@ footer a {color: var(--bege);}
 	#banners-home  .banner {
 		padding: 0 20px;
 	}
+
+	#carrosseldestaques  .destaque-item .subtit {
+		font-size: .92em;
+	}
+	p.datahora {
+		display: none;
+		font-weight: 800;
+		color: var(--roxo);
+	}
+	p.datahora span {display: block; font-size: 1.4em;}
+	.post-type-archive-releases  #content-noticias .lista-noticias li a, .post-type-archive-noticias #content-noticias .lista-noticias li a {
+		flex-direction: column !important;
+	}
+
 	.localhome,
 	.datahome {
 		font-size: 2.3em;
@@ -6521,7 +6531,7 @@ footer a {color: var(--bege);}
 		padding: 30px 20px 50px 20px;
 	}	
 	.footer-wrapper.social .left {
-		width: 12%;
+		width: 0%;
 		min-width: 95px;
 		margin: 0px;
 		display: flex;
@@ -7160,7 +7170,7 @@ footer a {color: var(--bege);}
 	#expositores h2, 
 	#programacao h2, 
 	#destaques h2 {
-		font-size: 2.7rem;
+		font-size: 1.7em;
 		/*overflow-wrap: break-word;
 		word-wrap: break-word;
 		max-width: 80%;*/
