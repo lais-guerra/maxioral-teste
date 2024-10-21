@@ -1161,7 +1161,7 @@ header #site-navigation li a:hover {
     bottom: 66px;
     right: 10px;
     text-decoration: none;
-    background-image: url('/assets/img/whatsappmenor.png');
+    background-image: url("https://lais-guerra.github.io/maxioral-teste/assets/img/whatsappmenor.png");
     background-size: 33px;
     background-position: center;
     background-repeat: no-repeat;
@@ -1193,7 +1193,7 @@ header #site-navigation li a:hover {
     bottom: 66px;
     right: 10px;
     text-decoration: none;
-    background-image: url('/assets/img/whatsappmenor.png');
+    background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/whatsappmenor.png');
     background-size: 33px;
     background-position: center;
     background-repeat: no-repeat;
@@ -1610,7 +1610,7 @@ section {}
 }
 #sobre-a-feira a.bt-cta-evento {
     text-decoration: none !important;
-    background-image: url('/assets/img/seta-dir.png');
+    background-image: url('lais-guerra.github.io/maxioral-teste/assets/img/seta-dir.png');
     background-position: right center;
     background-size: 25px;
     background-repeat: no-repeat;
