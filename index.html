@@ -257,19 +257,19 @@
                             <div class="box">
 
 
-                                <div class="container">
+                                <div class="containe">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alberto_conversi_profile_pic.jpg?20190214193055" alt="Avatar" class="image">
                                     <div class="overlay">
                                       <div class="text">Hello World</div>
                                     </div>
                                   </div>
-                                  <div class="container">
+                                  <div class="containe">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alberto_conversi_profile_pic.jpg?20190214193055" alt="Avatar" class="image">
                                     <div class="overlay">
                                       <div class="text">Hello World</div>
                                     </div>
                                   </div>
-                                  <div class="container">
+                                  <div class="containe">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alberto_conversi_profile_pic.jpg?20190214193055" alt="Avatar" class="image">
                                     <div class="overlay">
                                       <div class="text">Hello World</div>
@@ -303,7 +303,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 30%;
 }
 
 .image {
@@ -317,7 +317,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: var(--bege);
+  opacity: 0.9;
   overflow: hidden;
   width: 90%;
   height: 0;
@@ -326,14 +327,30 @@
 
 .container:hover .overlay {
   height: 100%;
+  width: 100%;
 }
 
 .text {
   color: white;
+  background-color: var(--azul-escuro);
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  opacity: 1;
+  width: 100%;
+  top: 70%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.subtext {
+  color: var(--azul-escuro);
+  font-size: 17px;
+  position: absolute;
+  top:80%;
+  left:45%;
+  width: 300px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -344,18 +361,84 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+    .box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.image {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bege);
+  opacity: 0.9;
+  overflow: hidden;
+  width: 70%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  color: white;
+  background-color: var(--azul-escuro);
+  font-size: 20px;
+  opacity: 1;
+  width: 100%;
+  top: 70%;
+  margin-left: 50px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.subtext {
+    display: none;
+  color: var(--azul-escuro);
+  font-size: 17px;
+  top:80%;
+  left:45%;
+  width: 300px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+}
     </style>
 
 <!--  DESTAQUES -->
-<section id="destaques">
+<section id="destaques" style="background: #181b34 ;">
 	<div class="wrapper">
-			<h2>Equi<span class="mobilebreak"></span>pe</h2>
-		<div class="wrapper"><p>Conheça os profissionais que fazem parte da nossa equipe.</p>
+			<h2 style="font-size: 3.7em">Equi<span class="mobilebreak"></span>pe</h2>
+		<div style="font-size: 2.7em"><p>Conheça os profissionais que fazem parte da nossa equipe.</p>
 
-</div>
+
 
 <div class="box">
 
@@ -363,25 +446,28 @@
 <div class="container">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alberto_conversi_profile_pic.jpg?20190214193055" alt="Avatar" class="image">
     <div class="overlay">
-      <div class="text">Hello World</div>
+      <div class="text">Dr. Daniel Rennó</div>
+      <div class="subtext">Cirurgião Bucomaxilo Facial</div>
     </div>
   </div>
   <div class="container">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alberto_conversi_profile_pic.jpg?20190214193055" alt="Avatar" class="image">
     <div class="overlay">
-      <div class="text">Hello World</div>
+      <div class="text">Dra. Juliana Souza</div>
+      <div class="subtext">Cirurgiã Bucomaxilo Facial</div>
     </div>
   </div>
   <div class="container">
     <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alberto_conversi_profile_pic.jpg?20190214193055" alt="Avatar" class="image">
     <div class="overlay">
-      <div class="text">Hello World</div>
+      <div class="text">Dra. Laís Guerra</div>
+      <div class="subtext">Protesista e Periodontista</div>
     </div>
   </div>
 
 </div>
 
-
+</div>
 			
 </section>
 
