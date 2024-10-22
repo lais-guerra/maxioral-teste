@@ -825,7 +825,7 @@ header {
 .header-wrapper .logo-wrapper a {
     display: flex;
     max-width: 100%;
-    width: 200px;
+    width: 100%;
     height: 100px;
 	
     background-image: url('https://lais-guerra.github.io/maxioral-teste/assets/img/logo_retangular_transparente.png');
