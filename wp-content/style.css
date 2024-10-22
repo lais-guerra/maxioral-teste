@@ -811,15 +811,11 @@ header {
     flex-wrap: wrap;
     align-content: center;
     justify-content: flex-start;
-	
-    background-color: var(--azul-escuro-transp);
     align-items: center;
     padding: 0px 0;
 }
  .logo-wrapper {
     padding: 10px 10px;
-	
-    background-color: var(--azul-escuro-transp);
     margin-top: 15px;
 }
 
